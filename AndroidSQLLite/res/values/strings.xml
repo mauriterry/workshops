@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidSQLLite</string>
+    
+    <string name="InitialTittle">Formulario</string>
+    <string name="InitialHintName">Digite el Nombre</string>
+    <string name="InitialHintId">Digite la Cedula</string>
+    <string name="InitialButtonSave">Guardar</string>
+
+</resources>

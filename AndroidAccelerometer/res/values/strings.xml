@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExampleAccelerometer</string>
+
+    <string name="InitialTittle">Acelerometro</string>
+    <string name="InitialYAxis">Eje Y:</string>
+    <string name="InitialXAxis">Eje X:</string>
+    <string name="InitialZAxis">Eje Z:</string>
+    <string name="InitialNoText">Sensor</string>
+
+</resources>

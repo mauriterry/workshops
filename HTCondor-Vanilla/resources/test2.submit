@@ -1,0 +1,9 @@
+Executable = test 
+Universe = vanilla
+output = logTest2.$(Process)
+error = logTest2.$(Process)
+Arguments = 1234567 3 123
+Log = logTest2.log
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+Queue 5

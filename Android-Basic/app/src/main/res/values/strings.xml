@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidBasic</string>
+
+    <string name="email">Correo Electrónico</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="register">Registrarse</string>
+
+
+
+</resources>

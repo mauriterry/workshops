@@ -1,0 +1,14 @@
+enable
+config t
+interface FastEthernet0/0
+ip address 192.168.3.129 255.255.255.240
+no shutdown
+exit
+interface FastEthernet0/1
+ip address 192.168.3.193 255.255.255.248
+no shutdown
+exit
+ip route 192.168.3.144 255.255.255.240 FastEthernet0/1
+ip route 192.168.3.160 255.255.255.240 FastEthernet0/1
+ip route 192.168.3.176 255.255.255.240 FastEthernet0/1
+exit

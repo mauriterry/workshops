@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExampleCamera</string>
+    
+    
+    <string name="InitialTittle">Camara</string>
+    <string name="InitialButton">Tomar Foto</string>
+
+</resources>

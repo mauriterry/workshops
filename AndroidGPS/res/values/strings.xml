@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExampleGPS</string>
+
+    <string name="InitialTittle">GPS</string>
+    
+    <string name="InitialCheckAccuracy">Más Presición</string>
+    <string name="InitialButtonOk">OK</string>
+    
+    <string name="InitialNoText">No hay Proveedor aún, espere un poco más</string>
+    
+    <string name="InitialLatitud">Latitud:</string>
+    <string name="InitialLogitud">Longitud:</string>
+    
+    
+</resources>

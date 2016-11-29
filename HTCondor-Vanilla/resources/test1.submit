@@ -1,0 +1,8 @@
+Executable = /bin/hostname 
+Universe = vanilla
+output = logTest1.$(Process)
+error = logTest1.$(Process)
+Log = logTest1.log
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+Queue 5

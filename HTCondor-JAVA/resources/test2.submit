@@ -1,0 +1,8 @@
+universe = java
+executable = Principal.class
+arguments = Principal 99999999 
+output = logTest2.$(Process)
+error = logTest2.error
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+queue 5

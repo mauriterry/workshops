@@ -1,0 +1,17 @@
+enable
+config t
+hostname R1
+ipv6 unicast-routing
+ipv6 router rip uno
+int fa0/0
+ipv6 enable
+ipv6 rip uno enable 
+ipv6 address 2001:F::1/32
+no shut
+exit
+int fa0/1
+ipv6 enable
+ipv6 rip uno enable 
+ipv6 address 2001:A::1/32
+no shut
+exit

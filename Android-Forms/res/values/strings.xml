@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Formularios Avanzados</string>
+
+    <string name="InitialTittle">Identifiquese</string>
+    <string name="InitialHintUserName">Nombre de Usuario</string>
+    <string name="InitialHintPassword">Contraseña</string>
+
+    <string name="InitialButtonCancel">Cancelar</string>
+    <string name="InitialButtonLogin">Ingresar</string>
+</resources>

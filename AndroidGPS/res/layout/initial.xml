@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <CheckBox
+         android:id="@+id/fineAccuracy"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/InitialCheckAccuracy" />
+
+     <Button
+         android:id="@+id/chooseRadio"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/InitialButtonOk" />
+
+      <TextView
+            android:id="@+id/prov"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/InitialNoText"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/lat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/InitialLatitud"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/InitialLogitud"
+            android:textSize="20sp" />
+       
+</LinearLayout> 
