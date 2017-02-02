@@ -1,7 +1,6 @@
 #!/bin/bash
-sudo yum -y update
 sudo yum clean all
-sudo yum -y install httpd
+sudo yum -y install httpd php
 sudo rm -f /etc/httpd/conf.d/welcome.conf
 sudo vi /etc/httpd/conf/httpd.conf
 cat /var/www/html/index.html
