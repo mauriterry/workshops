@@ -18,6 +18,8 @@ public class PrincipalJPA {
 		em.getTransaction().begin();
 		Artista art1 =  new Artista("Dante", 1900);
 		Artista art2 =  new Artista("Otro Dante", 1900);
+		
+		DAO.create(artista)
 		em.persist(art1);
 		em.persist(art2);
 		em.getTransaction().commit();
